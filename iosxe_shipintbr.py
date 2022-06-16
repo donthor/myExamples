@@ -33,4 +33,5 @@ for item in interfaces:
 print(final_switch_info)
 print()
 print(p1['version']['hostname'])
+print()
 print(tabulate(final_switch_info, headers=['Interface', 'IP Address', 'Protocol'], tablefmt='grid'))
